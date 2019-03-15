@@ -8,7 +8,8 @@ project "Yoga"
 
     files
     {
-        "yoga/**/*.c"
+        "yoga/*.cpp",
+        "yoga/*.h"
     }
 
     filter "system:windows"
